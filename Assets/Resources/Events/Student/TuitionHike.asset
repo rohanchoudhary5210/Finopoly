@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddc698dcf199e346bc272f623fd87db, type: 3}
+  m_Name: TuitionHike
+  m_EditorClassIdentifier: 
+  eventTitle: Tuition Fee Hike
+  eventDescription: The university raised fees unexpectedly. You need to pay up.
+  eventIcon: {fileID: 0}
+  choiceA:
+    buttonText: Pay ($1000)
+    moneyCost: -1000
+    happinessImpact: 0
+    careerImpact: 0
+    successChance: 1
+    failMoneyCost: 0
+    failHappinessImpact: 0
+  choiceB:
+    buttonText: Take Loan (Happiness Hit)
+    moneyCost: 0
+    happinessImpact: -30
+    careerImpact: 0
+    successChance: 1
+    failMoneyCost: 0
+    failHappinessImpact: 0

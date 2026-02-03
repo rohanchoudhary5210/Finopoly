@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddc698dcf199e346bc272f623fd87db, type: 3}
+  m_Name: PartTimeJob
+  m_EditorClassIdentifier: 
+  eventTitle: Part-Time Job Offer
+  eventDescription: "A local caf\xE9 is hiring. It pays well but will eat into your
+    study time."
+  eventIcon: {fileID: 0}
+  choiceA:
+    buttonText: Take the job
+    moneyCost: 500
+    happinessImpact: -10
+    careerImpact: 0
+    successChance: 1
+    failMoneyCost: 0
+    failHappinessImpact: 0
+  choiceB:
+    buttonText: Focus on studies
+    moneyCost: 0
+    happinessImpact: 0
+    careerImpact: 5
+    successChance: 1
+    failMoneyCost: 0
+    failHappinessImpact: 0
